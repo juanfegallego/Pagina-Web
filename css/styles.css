@@ -42,7 +42,7 @@ body {
 #logoHeader{
 
     height: 3em;
-    width: 5em;
+    width: 6em;
 
 }
 
@@ -52,16 +52,17 @@ body {
 
 .navbar-light .navbar-toggler {
     color: rgba(255, 255, 255, 0.55);
-    border-color: rgba(255, 255, 255, 0.1);
+    border-color: rgb(255, 255, 255);
+    background-color: white;
 }
 
 
 .logo {
     
-    height: 17em;
-    width: 30em;
+    height: 22em;
+    width: 40em;
     position: relative;
-    top: 3em;
+    top: 10em;
     display: flex;
     
 }
