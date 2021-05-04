@@ -1,0 +1,67 @@
+body {
+    background-image: url(/img/FONDO\ WEB.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #101115;
+}
+
+.principal{
+
+    height: 40em;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.header {
+    
+    background: url(/img/) no-repeat center;
+    background-size: cover;
+    /* min-height: 100vh; */
+
+    
+    
+}
+
+.collapse navbar-collapse{
+
+    color: red;
+}
+
+  .header .navbar {
+    background-color: transparent !important;
+    color: white;
+  }
+
+#logoHeader{
+
+    height: 3em;
+    width: 5em;
+
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar-light .navbar-toggler {
+    color: rgba(255, 255, 255, 0.55);
+    border-color: rgba(255, 255, 255, 0.1);
+}
+
+
+.logo {
+    
+    height: 17em;
+    width: 30em;
+    position: relative;
+    top: 3em;
+    display: flex;
+    
+}
