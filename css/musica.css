@@ -1,0 +1,21 @@
+
+body {
+    background-image: url(/img/paper.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #101115;
+}
+
+.principal{
+
+    height: 30em;
+    width: auto;
+}
+
+.texto1{
+
+    
+    color: white;
+}

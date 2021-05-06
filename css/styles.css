@@ -9,7 +9,7 @@ body {
 
 .principal{
 
-    height: 35em;
+    height: 33em;
     width: auto;
     display: flex;
     flex-direction: column;
@@ -82,7 +82,14 @@ body {
     top: 20em;
 }
 
-.instagram{
+.size{
+
+    height: 6em;
+    width: 6em;
+
+}
+
+/* .instagram {
 
     height: 6em;
     width: 6em;
@@ -97,9 +104,9 @@ body {
     
     
 
-}
+} */
 
-.soundcloud{
+/* .soundcloud{
 
     height: 6em;
     width: 6em;
@@ -112,6 +119,12 @@ body {
     height: 6em;
     width: 6em;
     
-}
+} */
 
-/* .spotify .soundcloud .email  */
+
+
+.size{
+
+    height: 6em;
+    width: 6em;
+}
