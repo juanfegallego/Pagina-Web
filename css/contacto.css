@@ -72,10 +72,120 @@ body {
     font-size: 11em;
     color:transparent;
     -webkit-text-stroke: 2px white;
-    /* left: -110px; */
+    left: -110px;
     transform: rotate(0.75turn);
+    z-index: 0;
     
 }
+
+.principal{
+
+    height: 44em;
+    width: auto;
+    display: inline;
+}
+
+/* FORMULARIO DE CONTACTO */
+  
+  .formulario {
+    width: 40em;
+    margin: auto;
+    display: flex;
+    display: flex;
+    position: relative;
+    top: 6em;
+    background-color: transparent;
+  }
+  
+  .bloque1 {
+    float: left;
+    background-color: white;
+    width: 36em;
+    height: auto;
+    border-radius: 5px;
+    padding-top: 20px;
+    padding-right: 20px;
+    box-shadow: 1em 2em 3em black;
+  }
+  
+  [type=text] {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    border: 0;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    height: 45px;
+    line-height: 45px;  
+    margin-bottom: 10px;
+    font-size: 1em;
+    color: rgba(0,0,0,.4);
+  }
+  
+  [type=submit] {
+    margin: 3em;
+    width: 16em;
+    border: 0;
+    position: relative;
+    left: 7em;
+    background-color: #101115;
+    border-radius: 5px;
+    height: 6em;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    font-size: 1em;
+    box-shadow: 1em 1.5em 3em black;
+    
+    
+  }
+  
+  [type='text']:focus {
+    outline: none;
+    border-color: #53CACE;
+  }
+
+.iconosRedes{
+    
+    height: 20em;
+    width: 20em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 3em;
+    
+    
+}
+
+
+
+
+.size{
+
+    height: 6em;
+    width: 6em;
+    position: relative;
+    left: 6em;
+}
+  
+.ladoDerecho{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "nova";
+    font-size: 8em;
+    color:transparent;
+    -webkit-text-stroke: 2px white;
+    z-index: 0;
+}
+
+.fotoContacto{
+
+    height: 6em;
+    width: 10em;
+}
+ 
 
 @media (min-width: 320px){
 
