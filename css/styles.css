@@ -49,6 +49,7 @@ body {
 
 .navbar-light .navbar-nav .nav-link {
     color: white;
+    font-family: "montserrat";
 }
 
 .navbar-light .navbar-toggler {
@@ -83,12 +84,6 @@ body {
     top: 3em;
 }
 
-.size{
-
-    height: 6em;
-    width: 6em;
-
-}
 
 .size{
 
