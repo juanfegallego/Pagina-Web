@@ -9,7 +9,7 @@ body {
 
 .principal{
 
-    height: 33em;
+    height: 40em;
     width: auto;
     display: flex;
     flex-direction: column;
@@ -59,18 +59,7 @@ body {
 }
 
 
-.logo {
-    
-    height: 22em;
-    width: 40em;
-    position: relative;
-    top: 5em;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    
-}
+
 
 
 .textoMusica{
@@ -81,13 +70,29 @@ body {
     
 }
 
+.imagenes{
+
+    height: 20em;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+}
+
 .imagen1{
 
     height: 20em;
     width: auto;
+    display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     z-index: 1;
 }
+
 
 .imagenPaellas{
 
@@ -99,6 +104,66 @@ body {
 
 }
 
+.imagen2{
+
+    height: 25em;
+    width: 40em;
+    border-radius: 3px;
+    box-shadow: 1em 2em 3em black;
+    display: flex;
+
+}
+
+.imagenXme{
+
+    height: 25em;
+    width: 40em;
+    border-radius: 3px;
+    box-shadow: 1em 2em 3em black;
+    display: flex;
+    
+
+}
+
+.listas{
+
+    height: 20em;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 25em;
+}
+
+.lista1{
+
+    height: 20em;
+    width: auto;
+    display: flex;
+    margin: 1em;
+}
+
+.lista2{
+
+    height: 20em;
+    width: auto;
+    display: flex;
+    margin: 1em;
+    
+
+}
+
+.lista3{
+
+    height: 20em;
+    width: auto;
+    display: flex;
+    margin: 1em;
+
+}
 
 @media (min-width: 320px){
 
@@ -107,18 +172,66 @@ body {
         width: auto;
         position: fixed;
         left: -110px;
-        transform: rotate(0.75turn
-    );
+        transform: rotate(0.75turn);
+        
     }
     
+    .imagen1{
+
+        height: 20em;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        top: 5em;
+        flex-wrap: wrap;
+        z-index: 1;
+        width: auto;
+
+    }
+
+    .imagen2{
+
+
+        height: 20em;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        top: 12em;
+        flex-wrap: wrap;
+        z-index: 0;
+        width: auto;
+
+    
+    
+    }
+
+    .listas{
+
+        position: relative;
+        top: 40em;
+    }
+    
+
+
+
 }
 
 
 @media (min-width: 768px){
 
+    .listas{
+
+        position: relative;
+        top: 40em;
+    }
+    
 }
 
 @media (min-width: 1024px){
 
+    .listas{
 
+        position: relative;
+        top: 40em;
+    }
 }
