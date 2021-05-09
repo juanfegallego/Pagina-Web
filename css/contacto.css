@@ -1,20 +1,27 @@
 body {
+    margin: 0em;
+    padding: 0em;
     background-image: url(/img/texture.jpg);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-color: #101115;
-}
-
-.principal{
-
-    height: 18em;
-    width: 64em;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.principal{
+
+    height: 30em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 10em;
     
 }
 
@@ -32,7 +39,7 @@ body {
 
 .collapse navbar-collapse{
 
-    color: red;
+    color: rgb(0, 0, 0);
 }
 
 .header .navbar {
@@ -72,7 +79,6 @@ body {
     font-size: 11em;
     color:transparent;
     -webkit-text-stroke: 2px white;
-    left: -110px;
     transform: rotate(0.75turn);
     z-index: 0;
     
@@ -82,12 +88,14 @@ body {
 /* FORMULARIO DE CONTACTO */
   
   .formulario {
+    height: 10em;
     width: 40em;
-    margin: auto;
     display: flex;
-    display: flex;
+  
+    justify-content: center;
+    align-items: center;
     position: relative;
-    top: 6em;
+    top: 5em;
     background-color: transparent;
   }
   
@@ -128,7 +136,7 @@ body {
     font-weight: 400;
     font-size: 1em;
     box-shadow: 1em 1.5em 3em black;
-    
+    z-index: 1;
     
   }
 
@@ -172,6 +180,7 @@ body {
   
 .ladoDerecho{
 
+    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -182,10 +191,13 @@ body {
     z-index: 0;
 }
 
-.fotoContacto{
+#fotoContacto{
 
-    height: 6em;
-    width: 10em;
+    height: 3.4em;
+    width: 5em;
+    border-radius: 5px;
+
+
 }
  
 
@@ -199,13 +211,38 @@ body {
         transform: rotate(0.75turn);
         
     }
+
+    .formulario {
+        height: 10em;
+        width: 30em;
+        display: flex;
+        flex-direction: column;
+      
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        top: 5em;
+        background-color: transparent;
+      }
+
+      #fotoContacto{
+
+        height: 0em;
+        width: 0em;
+        border-radius: 5px;
+    
+    
+    }
     
     .iconosRedes{
 
         display: flex;
         justify-content: center;
-        flex-direction: column;
+        flex-direction: row;
         align-self: center;
+        position: relative;
+        top: 10em;
+        right: 4em;
     }
     
 
@@ -221,7 +258,28 @@ body {
         position: relative;
         top: 40em;
     }
+
+    .formulario {
+        height: 10em;
+        width: 40em;
+        display: flex;
+        flex-direction: column;
+      
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        top: 5em;
+        background-color: transparent;
+      }
+
+      #fotoContacto{
+
+        height: 0em;
+        width: 0em;
+        border-radius: 5px;
     
+    
+    }
 }
 
 @media (min-width: 1024px){
@@ -230,5 +288,27 @@ body {
 
         position: relative;
         top: 40em;
+    }
+
+    .formulario {
+        height: 10em;
+        width: 40em;
+        display: flex;
+        flex-direction: row;
+      
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        top: 5em;
+        background-color: transparent;
+      }
+
+    #fotoContacto{
+
+        height: 3.4em;
+        width: 5em;
+        border-radius: 5px;
+    
+    
     }
 }
