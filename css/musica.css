@@ -199,19 +199,39 @@ body {
         display: flex;
         justify-content: center;
         position: relative;
-        top: 12em;
+        top: 7em;
         flex-wrap: wrap;
-        z-index: 0;
+        z-index: 1;
         width: auto;
+    }
 
-    
-    
+    .imagenPaellas{
+
+        height: 20em;
+        width: 30em;
+    }
+
+    .imagenXme{
+        height: 20em;
+        width: 30em;
+        
     }
 
     .listas{
 
         position: relative;
-        top: 40em;
+        top: 30em;
+    }
+
+    .lista2{
+
+        position: relative;
+        top: 3em;
+    }
+    .lista3{
+
+        position: relative;
+        top: 6em;
     }
     
 
@@ -222,19 +242,101 @@ body {
 
 @media (min-width: 768px){
 
+    
     .listas{
 
         position: relative;
-        top: 40em;
+        top: 30em;
+    }
+
+    .lista1{
+
+        position: relative;
+        top: 3em;
+
+    }
+
+    .lista2{
+
+        position: relative;
+        top: 3em;
+    }
+    .lista3{
+
+        position: relative;
+        top: 8em;
     }
     
 }
 
 @media (min-width: 1024px){
 
+    .imagenes{
+
+        height: 20em;
+        width: auto;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        
+    }
+    
+    .imagen1{
+    
+        height: 20em;
+        width: auto;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        z-index: 1;
+        position: relative;
+        top: -1em;
+    }
+    
+    
+    .imagenPaellas{
+    
+        height: 25em;
+        width: 40em;
+        border-radius: 3px;
+        box-shadow: 1em 2em 3em black;
+        display: flex;
+    
+    }
+    
+    .imagen2{
+    
+        height: 25em;
+        width: 40em;
+        border-radius: 3px;
+        box-shadow: 1em 2em 3em black;
+        display: flex;
+        z-index: 0;
+    
+    }
+    
+    .imagenXme{
+    
+        height: 25em;
+        width: 40em;
+        border-radius: 3px;
+        box-shadow: 1em 2em 3em black;
+        display: flex;
+        
+    
+    }
+
     .listas{
 
         position: relative;
-        top: 40em;
+        top: 15em;
+    }
+
+    .lista3{
+        position: relative;
+        top: 3em;
     }
 }
