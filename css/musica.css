@@ -144,6 +144,7 @@ body {
     width: auto;
     display: flex;
     margin: 1em;
+    box-shadow: 1em 2em 3em black;
 }
 
 .lista2{
@@ -152,6 +153,7 @@ body {
     width: auto;
     display: flex;
     margin: 1em;
+    box-shadow: 1em 2em 3em black;
     
 
 }
@@ -162,6 +164,7 @@ body {
     width: auto;
     display: flex;
     margin: 1em;
+    box-shadow: 1em 2em 3em black;
 
 }
 
