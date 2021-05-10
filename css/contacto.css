@@ -184,7 +184,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: "nova";
+    font-family: "novaregular";
     font-size: 8em;
     color:transparent;
     -webkit-text-stroke: 2px white;
